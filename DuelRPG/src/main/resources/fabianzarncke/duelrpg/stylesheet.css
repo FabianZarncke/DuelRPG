@@ -1,0 +1,13 @@
+.playbtn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff0000;
+    -fx-text-font-family: impact;
+    -fx-padding: -80;
+    -fx-font-weight: bold;
+    -fx-font-size: 220px;
+    -fx-cursor: hand;
+}
+
+.playbtn:hover {
+    -fx-text-fill: #cc0000;
+}

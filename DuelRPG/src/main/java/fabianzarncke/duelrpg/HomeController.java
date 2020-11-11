@@ -5,23 +5,16 @@
  */
 package fabianzarncke.duelrpg;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 
 /**
  * FXML Controller class
  *
  * @author Fabian
  */
-public class StartController implements Initializable {
-
-    @FXML
-    private Button playbtn;
+public class HomeController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -30,10 +23,5 @@ public class StartController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-
-    @FXML
-    private void btnHome(ActionEvent event) throws IOException {
-        App.setRoot("homeView");
-    }
     
 }
