@@ -17,12 +17,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("startView"), 580, 380);
+        scene = new Scene(loadFXML("startView"), 1200, 675);
         stage.setScene(scene);
-        stage.setMaxHeight(400);
-        stage.setMaxWidth(600);
-        stage.setMinHeight(400);
-        stage.setMinWidth(600);
+        stage.setMaxHeight(675);
+        stage.setMaxWidth(1200);
+        stage.setMinHeight(675);
+        stage.setMinWidth(1200);
         stage.show();
     }
 

@@ -2,12 +2,98 @@
     -fx-background-color: transparent;
     -fx-text-fill: #ff0000;
     -fx-text-font-family: impact;
-    -fx-padding: -80;
     -fx-font-weight: bold;
-    -fx-font-size: 220px;
+    -fx-padding: 0px;
+    -fx-font-size: 400px;
     -fx-cursor: hand;
 }
 
 .playbtn:hover {
     -fx-text-fill: #cc0000;
+}
+
+.heroesbtn {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #03001f;
+    -fx-border-sytle: solid;
+    -fx-border-color: red;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.heroesbtn:hover {
+    -fx-background-color: #0b006e;
+}
+
+.careerbtn {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #03001f;
+    -fx-border-sytle: solid;
+    -fx-border-color: red;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.careerbtn:hover {
+    -fx-background-color: #0b006e;
+}
+
+.shopbtn {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #03001f;
+    -fx-border-sytle: solid;
+    -fx-border-color: red;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.shopbtn:hover {
+    -fx-background-color: #0b006e;
+}
+
+.weaponsbtn {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #03001f;
+    -fx-border-sytle: solid;
+    -fx-border-color: red;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.weaponsbtn:hover {
+    -fx-background-color: #0b006e;
+}
+
+.duelbtn {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #03001f;
+    -fx-border-sytle: solid;
+    -fx-border-color: red;
+    -fx-cursor: hand;
+    -fx-font-size: 60px;
+}
+
+.duelbtn:hover {
+    -fx-background-color: #0b006e;
+}
+
+.money-lbl {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.xp-lbl {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.trophy-lbl {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
 }

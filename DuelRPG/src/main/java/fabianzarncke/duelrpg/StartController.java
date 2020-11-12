@@ -20,8 +20,6 @@ import javafx.scene.control.Button;
  */
 public class StartController implements Initializable {
 
-    @FXML
-    private Button playbtn;
 
     /**
      * Initializes the controller class.

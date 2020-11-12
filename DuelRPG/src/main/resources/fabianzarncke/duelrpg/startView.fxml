@@ -4,11 +4,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fabianzarncke.duelrpg.StartController">
+<AnchorPane id="AnchorPane" prefHeight="675.0" prefWidth="1200.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fabianzarncke.duelrpg.StartController">
    <children>
-      <Text fill="WHITE" layoutX="198.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Arial; -fx-font-size: 40;" text="DUEL RPG">
+      <Text fill="WHITE" layoutX="371.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Arial; -fx-font-size: 80px;" text="DUEL RPG">
       </Text>
-      <Button layoutX="112.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnHome" styleClass="playbtn" stylesheets="@stylesheet.css" text="PLAY" textAlignment="CENTER">
+      <Button alignment="CENTER" layoutX="121.0" layoutY="63.0" mnemonicParsing="false" onAction="#btnHome" styleClass="playbtn" stylesheets="@stylesheet.css" text="PLAY" textAlignment="CENTER">
       </Button>
    </children>
 </AnchorPane>
