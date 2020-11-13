@@ -18,7 +18,7 @@
     -fx-border-sytle: solid;
     -fx-border-color: red;
     -fx-cursor: hand;
-    -fx-font-size: 20px;
+    -fx-font-size: 40px;
 }
 
 .heroesbtn:hover {
@@ -31,7 +31,7 @@
     -fx-border-sytle: solid;
     -fx-border-color: red;
     -fx-cursor: hand;
-    -fx-font-size: 20px;
+    -fx-font-size: 40px;
 }
 
 .careerbtn:hover {
@@ -44,7 +44,7 @@
     -fx-border-sytle: solid;
     -fx-border-color: red;
     -fx-cursor: hand;
-    -fx-font-size: 20px;
+    -fx-font-size: 40px;
 }
 
 .shopbtn:hover {
@@ -53,11 +53,11 @@
 
 .weaponsbtn {
     -fx-text-fill: #ffffff;
-    -fx-background-color: #03001f;
+    -fx-background-image: url('DuelRPG-Weapons-Button-Background.png');
     -fx-border-sytle: solid;
     -fx-border-color: red;
     -fx-cursor: hand;
-    -fx-font-size: 20px;
+    -fx-font-size: 40px;
 }
 
 .weaponsbtn:hover {
